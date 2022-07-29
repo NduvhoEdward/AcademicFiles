@@ -1,0 +1,79 @@
+#FOR CLEANING AND CREATING SPACE
+  
+  #for checking before and after the below commands
+  du -sh /var/cache/apt/archives 
+  sudo apt-get autoclean
+  sudo apt-get clean
+
+  sudo apt-get autoremove
+
+#FOR TURNING OFF THE OPENVPN
+  
+  sudo ifconfig tun0 down
+
+
+#PYTHON
+
+  pip3 --user #rather than pip
+  apt-get install python-<module name> 
+  pip install ./downloads/SomeProject-1.0.4.tar.gz
+  apt-get install python3-venv
+
+  pip install --user opencv-python
+  pip uninstall [options] <package>
+  python3 -m pip install <package>
+
+
+  import math
+  print(math.log(1.5,base))
+  math.log(x,n)
+  math.log2(x)
+  math.log10(x)
+
+
+#NEWLY INSTALLED
+  
+  jupyter notebook
+  pdftk, pylint, coala, 
+  Toolz, Haul
+
+#SCHOOL RELATED
+
+  nsfas ref_no OA201809296149004 
+  students\1490iouer82
+
+
+#PICS MANIPULATION
+
+  [gs -o grayscale.pdf -sDEVICE=pdfwrite -sColorConversionStrategy=Gray 
+  -sProcessColorModel=DeviceGray -dCompatibilityLevel=1.4 colored.pdf]
+  convert -density 96x96 gs2.pdf -density 96x96 -negate -compress zip inv.pdf
+
+
+
+#YOUTUBE-DL
+
+  youtube-dl -F/f <link>            //for getting and chosing the format
+  youtube-dl -U                     //for updating youtube-dl
+  youtube-dl -a video_links.txt     //for links
+
+#SPOTDL
+  spotdl -s <link>
+  spotdl -p <link>
+  spotdl --list file.txt
+
+
+#TO-DO
+
+  shutter
+  sudo apt-get install dconf-editor
+
+
+#RANDOM
+  
+  dpkg --get-selections > mylist.list 
+  > notes(.txt) / touch notes //file creation
+  stat  //for file stats
+  inxi -Fxzd (or -S for less detailed)   #system info
+
+

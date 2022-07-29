@@ -1,0 +1,40 @@
+
+
+Good evening guys, I hope youre all well and keeping safe.
+
+About the current arrangement: I think heavily working on this only when we are all together might be end up defeating the idea of a teamwork, or atleast some aspects of it. 
+
+I say that in light of the fact that sometimes debugging can very easily take some hours, which of course we might not be able to do in one meeting. 
+And it might be sometimes more efficient if we all are looking at it a problem different perspectives.
+
+So doing some work outside the meeting sessions, while of course keeping a fairly extensive record (and explaination) of the changes you are making (on a shared file), might be more efficient. 
+We can then maybe go through the changes made during the weekly meeting(s), to bring everyone up to speed, and to "synchronize"
+
+Let me know what you think, or the direction we could go, so we can finalise the planing, which we need to do soon as Vanessa pointed out
+
+
+
+
+And some good news, we're now able to ping the headnode from the computemode, and vise-versa. 
+And also loging into the compute from the headnode is possible. 
+
+
+Problem cause:
+After checking the devices(/interfaces?) with 
+
+	$nmcli device show
+
+ i saw that the changes we were making with "nmtui" were somehow not taking effect (becaauce the gateway address was still 10.0.0.1, even after we changed it to 192.168.0.1).
+
+# restarting the network service (or the OS) was not solving the matter, im not sure why, maybe we needed to deactivate and (re)activate the interface....maybe.
+
+What I did:
+I 'restarted networking' with 
+
+	$nmcli networking off 
+
+		# which, (if I may save you the distress in case you try it), closed my "ssh" connection, so I had to log back in through OpenNebula.  
+
+	$nmcli networking on #(from OpenNebula)
+
+		

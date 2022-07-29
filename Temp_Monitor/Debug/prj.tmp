@@ -1,0 +1,35 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>D:\SCHOOL\Microprocessors\project\prj\prj\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\SCHOOL\Microprocessors\project\prj\prj\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\SCHOOL\Microprocessors\project\prj\prj\Debug\prj.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>prj.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>prj.map</FILE>
+  <FILE>prj.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>D:\SCHOOL\Microprocessors\project\prj\prj\main.asm</FILE><LINE>62</LINE></MAIN>
+  <CONVERT><FILE>D:\SCHOOL\Microprocessors\project\prj\prj\main.asm</FILE><LINE>127</LINE></CONVERT>
+  <WAKEUP><FILE>D:\SCHOOL\Microprocessors\project\prj\prj\main.asm</FILE><LINE>153</LINE></WAKEUP>
+  <DIGITS><FILE>D:\SCHOOL\Microprocessors\project\prj\prj\main.asm</FILE><LINE>59</LINE></DIGITS>
+  <LOOP><FILE>D:\SCHOOL\Microprocessors\project\prj\prj\main.asm</FILE><LINE>110</LINE></LOOP>
+  <DISPLAY><FILE>D:\SCHOOL\Microprocessors\project\prj\prj\main.asm</FILE><LINE>156</LINE></DISPLAY>
+  <SPLIT><FILE>D:\SCHOOL\Microprocessors\project\prj\prj\main.asm</FILE><LINE>168</LINE></SPLIT>
+  <TENS_ORDER><FILE>D:\SCHOOL\Microprocessors\project\prj\prj\main.asm</FILE><LINE>178</LINE></TENS_ORDER>
+  <ONES_ORDER><FILE>D:\SCHOOL\Microprocessors\project\prj\prj\main.asm</FILE><LINE>185</LINE></ONES_ORDER>
+ </LABELS>
+</ASSEMBLER_INFO>
